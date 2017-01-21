@@ -24,12 +24,16 @@ html, body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    background-image: url('bg.jpg');
+    background-image: url('content/bg.jpg');
 }
 
 #page-container {
     width: 100%;
     height: 100%;
+    opacity:0;
+    -moz-transition:all 2s;
+    transition:all 2s;
+    -webkit-transition:all 2s;
 }
 
     #page-container .page {
